@@ -28,19 +28,19 @@ This repository documents my Week 3 practical exercise: recovering access to the
 
 Reviewed the John the Ripper website and the available Windows Jumbo build used for the exercise.
 
-![John the Ripper website](images/01-John-the-Ripper-Website.png)
+![John the Ripper website](01-John-the-Ripper-Website.png)
 
 ### 2. Johnny configuration
 
 Configured Johnny to use the local John the Ripper Jumbo executable. The screenshot shows the executable path and detected version.
 
-![Johnny configuration](images/02-Johnny-Configuration.png)
+![Johnny configuration](02-Johnny-Configuration.png)
 
 ### 3. Johnny result
 
 The Johnny screenshot shows a recovered-password entry associated with the PDF hash. The value shown in the Password column is **good-luck**.
 
-![Johnny recovered entry](images/04-Johnny-Recovered-Entry.png)
+![Johnny recovered entry](04-Johnny-Recovered-Entry.png)
 
 ## Workflow 2: Networkwalks Hash Calculator and Password Cracker
 
@@ -48,17 +48,17 @@ The Johnny screenshot shows a recovered-password entry associated with the PDF h
 
 Used the Networkwalks Hash Calculator to process **My Locked PDF1.pdf** and display an encrypted-PDF hash in a format compatible with PDF password-auditing tools.
 
-![Networkwalks Hash Calculator](images/06-Networkwalks-Hash-Calculator.png)
+![Networkwalks Hash Calculator](06-Networkwalks-Hash-Calculator.png)
 
 A further hash-extraction screenshot from a separate PDF hash-extraction webpage is included as supplementary evidence. It is not the Networkwalks Hash Calculator interface.
 
-![Supplementary PDF hash extraction](images/03-PDF-Hash-Extraction-Supplementary.png)
+![Supplementary PDF hash extraction](03-PDF-Hash-Extraction-Supplementary.png)
 
 ### 2. Password Cracker result
 
 Submitted the extracted hash to the Networkwalks Password Cracker. The captured result screen reports a successful match and displays **password1**.
 
-![Networkwalks Password Cracker result](images/07-Networkwalks-Password-Cracker-Result.png)
+![Networkwalks Password Cracker result](07-Networkwalks-Password-Cracker-Result.png)
 
 **Evidence note:** The Johnny result screenshot displays `good-luck`, while the Networkwalks Password Cracker screenshot displays `password1`. These are recorded as the separate outputs visible in the supplied screenshots; the screenshots alone do not establish that both tools returned the same password for the same attempt.
 
@@ -66,9 +66,9 @@ Submitted the extracted hash to the Networkwalks Password Cracker. The captured 
 
 Opened the PDF successfully after password recovery. The following screenshots show the unlocked PDF / congratulatory page, including the page confirming that the first lab flag was captured.
 
-![Unlocked PDF confirmation](images/05-Unlocked-PDF-Confirmation.png)
+![Unlocked PDF confirmation](05-Unlocked-PDF-Confirmation.png)
 
-![PDF flag page](images/08-PDF-Flag-Page.png)
+![PDF flag page](08-PDF-Flag-Page.png)
 
 The flag text and full hash are left out of this README so the repository overview does not unnecessarily publish challenge-specific answer material. The evidence screenshot is retained as supplied.
 
